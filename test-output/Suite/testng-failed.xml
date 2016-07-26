@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="true">
+  <test name="Test1">
+    <classes>
+      <class name="testng.NewTest"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test2">
+    <classes>
+      <class name="testng.Test2"/>
+    </classes>
+  </test> <!-- Test2 -->
+  <test name="Test2(failed)" parallel="true">
+    <classes>
+      <class name="testng.Test2">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="firstTest"/>
+        </methods>
+      </class> <!-- testng.Test2 -->
+      <class name="testng.NewTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testng.NewTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

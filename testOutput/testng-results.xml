@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[priyanka]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="135" started-at="2016-02-28T10:45:57Z" finished-at="2016-02-28T10:45:57Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="Test2.verifyData1(java.lang.String, java.lang.Integer)[pri:0, instance:testng.Test2@267a754f]" name="verifyData1" class="testng.Test2"/>
+        <method signature="Test2.verifyData2(java.lang.String)[pri:0, instance:testng.Test2@267a754f]" name="verifyData2" class="testng.Test2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test1" duration-ms="11" started-at="2016-02-28T10:45:57Z" finished-at="2016-02-28T10:45:57Z">
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="135" started-at="2016-02-28T10:45:57Z" finished-at="2016-02-28T10:45:57Z">
+      <class name="testng.Test2">
+        <test-method status="PASS" signature="verifyData1(java.lang.String, java.lang.Integer)[pri:0, instance:testng.Test2@267a754f]" name="verifyData1" duration-ms="18" started-at="2016-02-28T16:15:57Z" data-provider="test2" finished-at="2016-02-28T16:15:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cedric]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyData1 -->
+        <test-method status="PASS" signature="verifyData1(java.lang.String, java.lang.Integer)[pri:0, instance:testng.Test2@267a754f]" name="verifyData1" duration-ms="1" started-at="2016-02-28T16:15:57Z" data-provider="test2" finished-at="2016-02-28T16:15:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anne]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyData1 -->
+        <test-method status="PASS" signature="verifyData2(java.lang.String)[pri:0, instance:testng.Test2@267a754f]" name="verifyData2" duration-ms="75" started-at="2016-02-28T16:15:57Z" finished-at="2016-02-28T16:15:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[priyanka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[priyanka]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyData2 -->
+      </class> <!-- testng.Test2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

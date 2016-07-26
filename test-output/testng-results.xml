@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="303326" started-at="2016-02-28T10:05:14Z" finished-at="2016-02-28T10:10:17Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="235165" started-at="2016-02-28T10:05:14Z" finished-at="2016-02-28T10:09:09Z">
+      <class name="testng.NewTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testng.NewTest@19dfde20]" name="beforeTest" is-config="true" duration-ms="170835" started-at="2016-02-28T15:35:14Z" finished-at="2016-02-28T15:38:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:testng.NewTest@19dfde20]" name="firstTest" duration-ms="46746" started-at="2016-02-28T15:38:05Z" description="Home_001" finished-at="2016-02-28T15:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testng.NewTest@19dfde20]" name="afterTest" is-config="true" duration-ms="17523" started-at="2016-02-28T15:38:51Z" finished-at="2016-02-28T15:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testng.NewTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="68048" started-at="2016-02-28T10:09:09Z" finished-at="2016-02-28T10:10:17Z">
+      <class name="testng.Test2">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testng.Test2@52a2c68e]" name="beforeTest" is-config="true" duration-ms="7691" started-at="2016-02-28T15:39:09Z" finished-at="2016-02-28T15:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="firstTest()[pri:0, instance:testng.Test2@52a2c68e]" name="firstTest" duration-ms="60329" started-at="2016-02-28T15:39:17Z" description="Home_002" finished-at="2016-02-28T15:40:17Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[Element is not currently visible and so may not be interacted with
+Command duration or timeout: 60.10 seconds
+Build info: version: '2.47.0', revision: '0e4837e', time: '2015-07-29 22:56:05'
+System info: host: 'ICPL10482', ip: '192.168.1.103', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_79'
+Session ID: 564c8ba9-e26d-43ba-9cef-1ca88a02131a
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=42.0}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 60.10 seconds
+Build info: version: '2.47.0', revision: '0e4837e', time: '2015-07-29 22:56:05'
+System info: host: 'ICPL10482', ip: '192.168.1.103', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_79'
+Session ID: 564c8ba9-e26d-43ba-9cef-1ca88a02131a
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=42.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:273)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at testng.Test2.firstTest(Test2.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.47.0', revision: '0e4837e', time: '2015-07-29 22:56:05'
+System info: host: 'ICPL10482', ip: '192.168.1.103', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_79'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/PRIYAN~1.PAT/AppData/Local/Temp/anonymous2542596066790494381webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9982)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/PRIYAN~1.PAT/AppData/Local/Temp/anonymous2542596066790494381webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12626)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/PRIYAN~1.PAT/AppData/Local/Temp/anonymous2542596066790494381webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12643)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/PRIYAN~1.PAT/AppData/Local/Temp/anonymous2542596066790494381webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testng.Test2@52a2c68e]" name="afterTest" is-config="true" duration-ms="17" started-at="2016-02-28T15:40:17Z" finished-at="2016-02-28T15:40:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testng.Test2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
