@@ -32,9 +32,9 @@ public class NewTest {
   @Test(description="Home_001", groups = {"Regression"})
   public void firstTest() {
 	  WebElement inputEmail=driver.findElement(By.xpath(Locators.InputEmail));
-		inputEmail.sendKeys("priyankarocks3784@yahoo.com");
+		inputEmail.sendKeys("ABC");
 		WebElement inputPass=driver.findElement(By.xpath(Locators.InputPassword));
-		inputEmail.sendKeys("9979419955PRIYA");
+		inputEmail.sendKeys("abc");
 		WebElement btnLogin=driver.findElement(By.xpath(Locators.btnLogin));
 		btnLogin.click();
 		
